@@ -23,7 +23,8 @@ nav {
     display: flex;
     flex-direction: row;
     background-color: rgb(234, 232, 229);
-   text-align: center;
+    text-align: center;
+    justify-content: space-around;
 }
 
 nav a {
@@ -160,6 +161,11 @@ footer a {
     overflow: hidden;
     transition: .5s;
 
+}
+
+.padre_plantel {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card .front {
