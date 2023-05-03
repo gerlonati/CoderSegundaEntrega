@@ -132,13 +132,13 @@ footer a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: rgb(116, 211, 251);
+  background-color: #03afff;
   border-radius: 4px;
-  -webkit-transition: 1px rgb(255, 255, 255);
-  transition: 1px rgb(255, 255, 255);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  border: solid 1px rgb(255, 255, 255);
 }
 
 .grid-item:hover {
@@ -157,14 +157,6 @@ footer a {
   grid-auto-flow: dense;
 }
 
-@media (min-width: 600px) {
-  .wide {
-    grid-column: span 2;
-  }
-  .tall {
-    grid-row: span 2;
-  }
-}
 .card {
   margin: 20px;
   position: relative;

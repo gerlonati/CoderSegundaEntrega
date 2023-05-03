@@ -105,18 +105,15 @@ footer a {
     align-items: center;
     justify-content: center;
 
-    background-color:  rgb(116, 211, 251);
+    background-color: #03afff;
     border-radius: 4px;
-    transition: 1px rgb(255, 255, 255);
+    transition: transform 0.3s ease-in-out;
 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    
-  
+    border: solid 1px rgb(255, 255, 255);
+
 }
 
-.grid-item:hover {
+.grid-item:hover{
     filter: opacity(0.9);
     transform: scale(1.04);
 }
@@ -130,19 +127,6 @@ footer a {
     grid-auto-flow: dense;
     
 
-}
-
-@media (min-width: 600px) {
-    .wide {
-        grid-column: span 2;
-      }
-      
-      
-      
-      .tall {
-          grid-row: span 2;
-      }
-      
 }
 
 .card {
