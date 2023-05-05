@@ -1,0 +1,28 @@
+.galery_row {
+    display: flex;
+    padding: 3px;
+    flex-wrap: wrap;
+}
+
+.galery_column {
+    flex: 25%;
+    padding: 3px;
+    img {
+        width: 100%;
+        margin-top: 3px;
+    }   
+}
+
+@media (max-width: 800px) {
+    .galery_column {
+        flex: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .galery_column {
+        flex: 100%;
+    }
+}
+
+

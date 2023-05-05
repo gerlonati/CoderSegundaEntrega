@@ -1,0 +1,13 @@
+nav {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(234, 232, 229);
+    text-align: center;
+    justify-content: space-around;
+    a {
+        color: black;
+        padding: 14px 20px;
+        text-decoration: none;
+    }   
+}

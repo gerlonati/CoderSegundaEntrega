@@ -1,0 +1,30 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    .container-card {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        .imagen-card {
+            background-color: white;
+            width: 270px;
+            height: 400px;
+            margin: 10px;
+            border-radius: 15px;
+            .imagen_camiseta {
+                height: 270px;
+                background-color: black;
+                margin-bottom: 15px ;
+                border-radius: 15px 15px 0 0;
+            }
+            &:hover {
+                background-color: rgb(62, 62, 62);
+                color: white;
+                cursor: pointer;
+                transform: scale(1.03);
+                transition: all 1s ease;
+            }
+        }
+    }
+}
