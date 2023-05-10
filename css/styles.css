@@ -27,14 +27,6 @@ section {
   padding: 20px;
 }
 
-@media screen and (max-width: 600px) {
-  nav, .row {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -98,6 +90,14 @@ nav a {
   text-decoration: none;
 }
 
+@media screen and (max-width: 600px) {
+  nav, .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 .padre_plantel {
   display: -webkit-box;
   display: -ms-flexbox;
