@@ -170,8 +170,8 @@ nav a {
   height: 50px;
   line-height: 50px;
 }
-.padre_plantel .card .back .link .a {
-  color: #f3f3f3;
+.padre_plantel .card .back a {
+  color: #fff;
 }
 .padre_plantel .card .back .h3 {
   font-size: 30px;
@@ -206,7 +206,7 @@ nav a {
 }
 
 .card_titulos {
-  width: 360px;
+  width: 370px;
   height: 510px;
   border-radius: 20px;
   overflow: hidden;
@@ -229,9 +229,9 @@ nav a {
   top: 0;
   right: -100%;
   position: absolute;
-  background: rgba(31, 61, 71, 0.2196078431);
-  -webkit-backdrop-filter: blur(3px);
-          backdrop-filter: blur(3px);
+  background: rgba(10, 18, 21, 0.4156862745);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
   border-radius: 15px;
   color: #fff;
   padding: 30px;
