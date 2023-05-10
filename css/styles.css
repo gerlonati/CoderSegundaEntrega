@@ -210,11 +210,12 @@ nav a {
   height: 510px;
   border-radius: 20px;
   overflow: hidden;
-  border: 8px solid #fff;
+  border: 1px solid #fff;
   position: relative;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  margin-top: 40px;
 }
 .card_titulos .card_img {
   width: 100%;
