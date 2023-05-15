@@ -1,14 +1,16 @@
 nav {
-    margin: 10px;
+    margin: 20px 10px;
     display: flex;
     flex-direction: row;
     background-color: rgb(234, 232, 229);
     text-align: center;
     justify-content: space-around;
+    padding: 14px;
     a {
         color: black;
         padding: 14px 20px;
         text-decoration: none;
+        letter-spacing: 1px;
     }   
 }
 

@@ -36,15 +36,18 @@
         transition: 2s;
         .card_tex{
             text-transform: uppercase;
+            text-align: center;
             font-size: 50px;
             font-weight: 500;
         }
         .card_subtitulo {
             text-transform: capitalize;
+            text-align:center;
             font-size: 14px;
             font-weight: 300;
         }
         .card_parrafo {
+            text-align: justify;
             font-size: 16px;
             line-height: 25px;
             margin: 40px 0;
